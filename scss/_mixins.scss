@@ -1,0 +1,43 @@
+@mixin center-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@mixin flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin flex-center-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+@mixin small-text-style {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-family: 'Karla';
+}
+
+@mixin flex-center {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+@mixin big-text {
+    line-height: 60px;
+    font-size: 47px;
+    font-weight: 400;
+    font-family: 'Karla';
+}
+
+@mixin middle-text {
+    line-height: 30px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Karla';
+}

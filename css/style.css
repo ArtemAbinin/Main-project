@@ -1,1 +1,177 @@
-/*# sourceMappingURL=style.css.map */
+@font-face {
+  font-family: "Karla";
+  src: url(../fonts/karla/Karla-VariableFont_wght.ttf);
+}
+html, body, div, span, applet, object, iframe, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-navigation {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.header-navigation-list {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation-word {
+  text-decoration: none;
+  color: #1D1F2E;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-family: "Karla";
+}
+
+.header-bag {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 10%;
+}
+
+.header-bag-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 18px;
+  border-radius: 50%;
+  color: white;
+  background-color: black;
+}
+
+.header-main {
+  display: flex;
+  justify-content: center;
+}
+
+.header-main-background {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  width: 98%;
+  background-color: #060628;
+}
+
+.header-main-block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("../img/background-img/IMAGE.png");
+  background-repeat: no-repeat;
+  object-position: center;
+  object-fit: cover;
+  background-size: 100% 100%;
+  min-height: 530px;
+  width: 66%;
+}
+
+.header-main-title {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.header-main-text {
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-family: "Karla";
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.header-main-brand {
+  line-height: 60px;
+  font-size: 47px;
+  font-weight: 400;
+  font-family: "Karla";
+  margin: 0;
+}
+
+.header-main-describe {
+  line-height: 30px;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "Karla";
+  margin: 0;
+}
+
+.header-main-button {
+  margin-top: 30px;
+  text-transform: uppercase;
+  min-width: 230px;
+  min-height: 33px;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-family: "Karla";
+  color: black;
+  border: none;
+}/*# sourceMappingURL=style.css.map */

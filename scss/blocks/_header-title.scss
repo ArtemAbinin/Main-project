@@ -1,0 +1,54 @@
+.header-main {
+    display: flex;
+    justify-content: center;
+}
+
+.header-main-background {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    width: 98%;
+    background-color: #060628;
+}
+
+.header-main-block {
+    @include center-around;
+    background-image: url('../img/background-img/IMAGE.png');
+    background-repeat: no-repeat;
+    object-position: center;
+    object-fit: cover;
+    background-size: 100% 100%;
+    min-height: 530px;
+    width: 66%;
+}
+
+.header-main-title {
+    text-align: center;
+    color: $white;
+}
+
+.header-main-text {
+    @include small-text-style;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.header-main-brand {
+    @include big-text;
+    margin: 0;
+}
+
+.header-main-describe {
+    @include middle-text;
+    margin: 0;
+}
+
+.header-main-button {
+    margin-top: 30px;
+    text-transform: uppercase;
+    min-width: 230px;
+    min-height: 33px;
+    @include small-text-style;
+    color: black;
+    border: none;
+}

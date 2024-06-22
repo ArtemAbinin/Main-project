@@ -1,0 +1,40 @@
+.header {
+   @include flex-center;
+}
+
+.header-navigation {
+   width: 65%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 25px;
+}
+
+.header-navigation-list {
+   width: 70%;
+   @include flex-center-around;
+   padding: 0;
+   margin: 0;
+}
+
+.navigation-word {
+   text-decoration: none;
+   color: $black;
+   text-transform: uppercase;
+   @include small-text-style;
+}
+
+.header-bag {
+   @include flex-between;
+   align-items: center;
+   width: 10%;
+}
+
+.header-bag-number {
+   @include flex-center;
+   width: 20px;
+   height: 18px;
+   border-radius: 50%;
+   color: white;
+   background-color: black;
+}
