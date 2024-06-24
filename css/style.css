@@ -87,6 +87,11 @@ table {
   font-family: "Karla";
 }
 
+.navigation-word:hover {
+  color: brown;
+  transition: 0.2s;
+}
+
 .header-bag {
   display: flex;
   justify-content: space-between;
@@ -174,4 +179,122 @@ table {
   font-family: "Karla";
   color: black;
   border: none;
+}
+
+.header-main-button:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.title-products {
+  display: flex;
+  justify-content: center;
+}
+
+.title-products-block {
+  width: 44%;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.title-products-main {
+  font-family: "Karla";
+  line-height: 40px;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.title-products-text {
+  line-height: 30px;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "Karla";
+}
+
+.title-products-bitton {
+  font-family: "Karla";
+  background-color: white;
+  color: #A25F4B;
+  height: 28px;
+  width: 133px;
+  margin-bottom: 30px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid burlywood;
+}
+
+.title-products-last {
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-family: "Karla";
+  position: relative;
+  text-transform: uppercase;
+}
+
+.title-products-last::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 1px;
+  background-color: lightgray;
+  left: -50px;
+  top: 7px;
+}
+
+.title-products-last::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 1px;
+  background-color: lightgray;
+  right: -50px;
+  top: 7px;
+}
+
+.first-two-cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.first-two-cards-block {
+  min-width: 65%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-two-card {
+  text-align: center;
+}
+
+.first-two-card-describe {
+  font-family: "Karla";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 35px 0 0 0;
+}
+
+.first-two-card-price {
+  line-height: 30px;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "Karla";
+  color: rgb(110, 110, 110);
+}
+
+.first-two-card-discount {
+  margin-right: 15px;
+  font-family: "Karla";
+  font-size: 19px;
+  line-height: 32px;
+  color: #A25F4B;
+}
+
+.price-line {
+  text-decoration: line-through;
+  text-decoration-color: rgb(110, 110, 110);
 }/*# sourceMappingURL=style.css.map */

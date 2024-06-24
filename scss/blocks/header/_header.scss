@@ -24,6 +24,11 @@
    @include small-text-style;
 }
 
+.navigation-word:hover {
+   color: brown;
+   transition: 0.2s;
+}
+
 .header-bag {
    @include flex-between;
    align-items: center;

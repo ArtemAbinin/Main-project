@@ -1,0 +1,97 @@
+.title-products {
+    display: flex;
+    justify-content: center;
+}
+
+.title-products-block {
+    width: 44%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.title-products-main {
+    @include title-product-main;
+}
+
+.title-products-text {
+    @include middle-text;
+}
+
+.title-products-bitton {
+    font-family: 'Karla';
+    background-color: white;
+    color: $brown;
+    height: 28px;
+    width: 133px;
+    margin-bottom: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid burlywood;
+}
+
+.title-products-last {
+    @include small-text-style;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.title-products-last::before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 1px;
+    background-color: lightgray;
+    left: -50px;
+    top: 7px;
+}
+
+.title-products-last::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 1px;
+    background-color: lightgray;
+    right: -50px;
+    top: 7px;
+}
+
+.first-two-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.first-two-cards-block {
+    min-width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-two-card {
+    text-align: center
+}
+
+.first-two-card-describe {
+    @include card-describe;
+    margin: 35px 0 0 0;
+}
+
+.first-two-card-price {
+    @include middle-text;
+    color: rgb(110, 110, 110);
+}
+
+.first-two-card-discount {
+    margin-right: 15px;
+    font-family: 'Karla';
+    font-size: 19px;
+    line-height: 32px;
+    color: #A25F4B;
+}
+
+.price-line {
+    text-decoration: line-through;
+    text-decoration-color: rgb(110, 110, 110);
+}
+

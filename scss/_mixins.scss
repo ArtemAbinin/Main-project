@@ -41,3 +41,17 @@
     font-weight: 400;
     font-family: 'Karla';
 }
+
+@mixin title-product-main {
+    font-family: 'Karla';
+    line-height: 40px;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+@mixin card-describe {
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}

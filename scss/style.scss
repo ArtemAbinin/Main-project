@@ -2,5 +2,6 @@
 @import './mixins';
 @import './reset';
 @import './variables';
-@import './blocks/header';
-@import './blocks/header-title';
+@import './blocks/header/header';
+@import './blocks/header/header-title';
+@import './blocks/content/title-products';
