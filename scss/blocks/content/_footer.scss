@@ -1,0 +1,66 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.footer-block {
+    min-height: 204px;
+    display: flex;
+    min-width: 90%;
+    justify-content: space-between;
+}
+
+.footer-block-main {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    position: relative;
+}
+
+.footer-block-one {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 20%;
+}
+
+.footer-block-center {
+    width: 80%;
+}
+
+.footer-block-title {
+    font-family: 'Karla';
+}
+
+.footer-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list-title {
+    @include small-text-style;
+    text-transform: uppercase
+}
+
+.list-item {
+   font-size: 14px;
+   line-height: 22px;
+   font-family: 'Karla';
+   margin-top: 10px;
+   color: rgb(116, 116, 116);
+}
+
+.footer-email {
+    font-family: 'Karla';
+}
+
+.last-item {
+    @include small-text-style;
+    color: lightgray;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+}

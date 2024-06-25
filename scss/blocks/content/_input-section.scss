@@ -1,0 +1,72 @@
+.input-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.input-section-black-block {
+    width: 95%;
+    background-color: #1D1F2E;
+    min-height: 327px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-section-block {
+    text-align: center;
+}
+
+.title-products-word-input {
+    color: white;
+    @include small-text-style;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.title-products-word-input::before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 1px;
+    background-color: lightgray;
+    left: -50px;
+    top: 7px;
+}
+
+.title-products-word-input::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 1px;
+    background-color: lightgray;
+    right: -50px;
+    top: 7px;
+}
+
+.input-section-block-title {
+    font-family: 'Karla';
+    font-size: 36px;
+    color: white;
+}
+
+.input-form {
+    display: flex;
+}
+
+.input {
+    background-color: #1D1F2E;
+    border: 1px solid rgb(75, 75, 75);
+    min-width: 350px;
+    min-height: 53px;
+    color: gray;
+}
+
+.input-button {
+    margin-left: 10px;
+    min-width: 129px;
+    min-height: 54px;
+    @include small-text-style;
+    text-transform: uppercase;
+    background-color: white;
+}
