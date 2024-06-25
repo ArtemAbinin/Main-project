@@ -1,0 +1,34 @@
+.design-blocks {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.design-blocks-justify {
+    margin-top: 100px;
+}
+
+.design-three-blocks {
+    width: 63%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.design-card {
+    width: 300px;
+    text-align: left
+}
+
+.design-title {
+    @include card-describe;
+}
+
+.design-text {
+    @include middle-text;
+    color: rgb(151, 149, 149);
+    margin: 0;
+}
+
+.design-data {
+    @include middle-text;
+}

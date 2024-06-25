@@ -30,13 +30,13 @@
     border-bottom: 2px solid burlywood;
 }
 
-.title-products-last {
+.title-products-word {
     @include small-text-style;
     position: relative;
     text-transform: uppercase;
 }
 
-.title-products-last::before {
+.title-products-word::before {
     content: '';
     position: absolute;
     width: 30px;
@@ -46,7 +46,7 @@
     top: 7px;
 }
 
-.title-products-last::after {
+.title-products-word::after {
     content: '';
     position: absolute;
     width: 30px;
@@ -72,22 +72,27 @@
     text-align: center
 }
 
-.first-two-card-describe {
+.first-two-card:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.card-product-describe {
     @include card-describe;
     margin: 35px 0 0 0;
 }
 
-.first-two-card-price {
+.card-product-price {
     @include middle-text;
     color: rgb(110, 110, 110);
 }
 
-.first-two-card-discount {
+.card-product-discount {
     margin-right: 15px;
     font-family: 'Karla';
     font-size: 19px;
     line-height: 32px;
-    color: #A25F4B;
+    color: $discount;
 }
 
 .price-line {
