@@ -30,13 +30,13 @@
     border-bottom: 2px solid burlywood;
 }
 
-.title-products-word {
+.title-products-word-one {
     @include small-text-style;
     position: relative;
     text-transform: uppercase;
 }
 
-.title-products-word::before {
+.title-products-word-one::before {
     content: '';
     position: absolute;
     width: 30px;
@@ -46,7 +46,7 @@
     top: 7px;
 }
 
-.title-products-word::after {
+.title-products-word-one::after {
     content: '';
     position: absolute;
     width: 30px;
