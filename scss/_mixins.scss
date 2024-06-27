@@ -15,7 +15,7 @@
 }
 
 @mixin small-text-style {
-    font-size: 12px;
+    font-size: calc(12px + (17 - 12) * ((100vw - 300px) / (2560 - 300)));
     line-height: 18px;
     letter-spacing: 2px;
     font-weight: 400;
@@ -30,14 +30,14 @@
 
 @mixin big-text {
     line-height: 60px;
-    font-size: 47px;
+    font-size: calc(47px + (80 - 47) * ((100vw - 300px) / (2560 - 300)));
     font-weight: 400;
     font-family: 'Karla';
 }
 
 @mixin middle-text {
     line-height: 30px;
-    font-size: 17px;
+    font-size: calc(17px + (25 - 17) * ((100vw - 300px) / (2560 - 300)));
     font-weight: 400;
     font-family: 'Karla';
 }
@@ -45,14 +45,14 @@
 @mixin title-product-main {
     font-family: 'Karla';
     line-height: 40px;
-    font-size: 28px;
+    font-size: calc(28px + (40 - 28) * ((100vw - 300px) / (2560 - 300)));
     font-weight: 400;
 }
 
 @mixin card-describe {
     font-family: 'Karla';
     font-weight: 400;
-    font-size: 20px;
+    font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (2560 - 300)));
     line-height: 30px;
 }
 

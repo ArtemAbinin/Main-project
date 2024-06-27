@@ -80,7 +80,18 @@ table {
   text-decoration: none;
   color: #1D1F2E;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: calc(12px + 5 * (100vw - 300px) / 2260);
+  line-height: 18px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-family: "Karla";
+}
+
+.header-bag-word {
+  text-decoration: none;
+  color: #1D1F2E;
+  text-transform: uppercase;
+  font-size: calc(12px + 5 * (100vw - 300px) / 2260);
   line-height: 18px;
   letter-spacing: 2px;
   font-weight: 400;
@@ -110,6 +121,62 @@ table {
   background-color: black;
 }
 
+.sitebar {
+  display: none;
+}
+
+@media (max-width: 1250px) {
+  .header-navigation {
+    width: 95%;
+  }
+}
+@media (max-width: 880px) {
+  .header-navigation-list {
+    display: none;
+  }
+  .header-bag {
+    width: 20%;
+  }
+  .sitebar {
+    display: block;
+    position: relative;
+  }
+  .header-navigation-list-sitebar {
+    display: none;
+    border: 1px solid black;
+    border-bottom-left-radius: 20%;
+    border-top-left-radius: 20%;
+    width: 150px;
+    height: 110px;
+    position: absolute;
+    color: white;
+    background-color: gray;
+    top: 20px;
+    right: 2px;
+    text-align: center;
+  }
+  .sitebar:hover .header-navigation-list-sitebar {
+    display: block;
+  }
+  .navigation-word:active {
+    color: rgb(133, 84, 20);
+  }
+  .navigation-word {
+    color: white;
+    font-size: 10px;
+  }
+}
+@media (max-width: 450px) {
+  .header-navigation-list-sitebar {
+    width: 100px;
+  }
+  .header-bag-word {
+    display: none;
+  }
+  .header-bag {
+    width: 15%;
+  }
+}
 .header-main {
   display: flex;
   justify-content: center;
@@ -142,7 +209,7 @@ table {
 }
 
 .header-main-text {
-  font-size: 12px;
+  font-size: calc(12px + 5 * (100vw - 300px) / 2260);
   line-height: 18px;
   letter-spacing: 2px;
   font-weight: 400;
@@ -153,7 +220,7 @@ table {
 
 .header-main-brand {
   line-height: 60px;
-  font-size: 47px;
+  font-size: calc(47px + 33 * (100vw - 300px) / 2260);
   font-weight: 400;
   font-family: "Karla";
   margin: 0;
@@ -161,7 +228,7 @@ table {
 
 .header-main-describe {
   line-height: 30px;
-  font-size: 17px;
+  font-size: calc(17px + 8 * (100vw - 300px) / 2260);
   font-weight: 400;
   font-family: "Karla";
   margin: 0;
@@ -172,7 +239,7 @@ table {
   text-transform: uppercase;
   min-width: 230px;
   min-height: 33px;
-  font-size: 12px;
+  font-size: calc(12px + 5 * (100vw - 300px) / 2260);
   line-height: 18px;
   letter-spacing: 2px;
   font-weight: 400;
@@ -186,6 +253,18 @@ table {
   transition: 0.5s;
 }
 
+@media (max-width: 1250px) {
+  .header-main-background {
+    width: 100%;
+  }
+}
+@media (max-width: 450px) {
+  .header-main-block {
+    width: 100%;
+    background-image: none;
+    background-color: burlywood;
+  }
+}
 .title-products {
   display: flex;
   justify-content: center;
@@ -200,13 +279,13 @@ table {
 .title-products-main {
   font-family: "Karla";
   line-height: 40px;
-  font-size: 28px;
+  font-size: calc(28px + 12 * (100vw - 300px) / 2260);
   font-weight: 400;
 }
 
 .title-products-text {
   line-height: 30px;
-  font-size: 17px;
+  font-size: calc(17px + 8 * (100vw - 300px) / 2260);
   font-weight: 400;
   font-family: "Karla";
 }
@@ -225,7 +304,7 @@ table {
 }
 
 .title-products-word-one {
-  font-size: 12px;
+  font-size: calc(12px + 5 * (100vw - 300px) / 2260);
   line-height: 18px;
   letter-spacing: 2px;
   font-weight: 400;
@@ -278,14 +357,14 @@ table {
 .card-product-describe {
   font-family: "Karla";
   font-weight: 400;
-  font-size: 20px;
+  font-size: calc(20px + 10 * (100vw - 300px) / 2260);
   line-height: 30px;
   margin: 35px 0 0 0;
 }
 
 .card-product-price {
   line-height: 30px;
-  font-size: 17px;
+  font-size: calc(17px + 8 * (100vw - 300px) / 2260);
   font-weight: 400;
   font-family: "Karla";
   color: rgb(110, 110, 110);
@@ -310,7 +389,7 @@ table {
 }
 
 .title-products-word-two {
-  font-size: 12px;
+  font-size: calc(12px + 5 * (100vw - 300px) / 2260);
   line-height: 18px;
   letter-spacing: 2px;
   font-weight: 400;
@@ -365,7 +444,7 @@ table {
 }
 
 .title-products-word-three {
-  font-size: 12px;
+  font-size: calc(12px + 5 * (100vw - 300px) / 2260);
   line-height: 18px;
   letter-spacing: 2px;
   font-weight: 400;
@@ -396,7 +475,7 @@ table {
 
 .end-products-block {
   display: flex;
-  width: 65%;
+  min-width: 65%;
   margin-top: 100px;
   margin-left: 18%;
 }
@@ -432,7 +511,7 @@ table {
 
 .end-products-block-inform-text {
   line-height: 30px;
-  font-size: 17px;
+  font-size: calc(17px + 8 * (100vw - 300px) / 2260);
   font-weight: 400;
   font-family: "Karla";
 }
@@ -442,7 +521,7 @@ table {
   text-transform: uppercase;
   min-width: 230px;
   min-height: 33px;
-  font-size: 12px;
+  font-size: calc(12px + 5 * (100vw - 300px) / 2260);
   line-height: 18px;
   letter-spacing: 2px;
   font-weight: 400;
@@ -494,13 +573,13 @@ table {
 .design-title {
   font-family: "Karla";
   font-weight: 400;
-  font-size: 20px;
+  font-size: calc(20px + 10 * (100vw - 300px) / 2260);
   line-height: 30px;
 }
 
 .design-text {
   line-height: 30px;
-  font-size: 17px;
+  font-size: calc(17px + 8 * (100vw - 300px) / 2260);
   font-weight: 400;
   font-family: "Karla";
   color: rgb(151, 149, 149);
@@ -509,7 +588,7 @@ table {
 
 .design-data {
   line-height: 30px;
-  font-size: 17px;
+  font-size: calc(17px + 8 * (100vw - 300px) / 2260);
   font-weight: 400;
   font-family: "Karla";
 }
@@ -535,7 +614,7 @@ table {
 
 .title-products-word-input {
   color: white;
-  font-size: 12px;
+  font-size: calc(12px + 5 * (100vw - 300px) / 2260);
   line-height: 18px;
   letter-spacing: 2px;
   font-weight: 400;
@@ -586,7 +665,7 @@ table {
   margin-left: 10px;
   min-width: 129px;
   min-height: 54px;
-  font-size: 12px;
+  font-size: calc(12px + 5 * (100vw - 300px) / 2260);
   line-height: 18px;
   letter-spacing: 2px;
   font-weight: 400;
@@ -638,7 +717,7 @@ table {
 }
 
 .list-title {
-  font-size: 12px;
+  font-size: calc(12px + 5 * (100vw - 300px) / 2260);
   line-height: 18px;
   letter-spacing: 2px;
   font-weight: 400;
@@ -659,7 +738,7 @@ table {
 }
 
 .last-item {
-  font-size: 12px;
+  font-size: calc(12px + 5 * (100vw - 300px) / 2260);
   line-height: 18px;
   letter-spacing: 2px;
   font-weight: 400;

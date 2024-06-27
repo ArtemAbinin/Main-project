@@ -24,6 +24,13 @@
    @include small-text-style;
 }
 
+.header-bag-word {
+   text-decoration: none;
+   color: $black;
+   text-transform: uppercase;
+   @include small-text-style;
+}
+
 .navigation-word:hover {
    color: brown;
    transition: 0.2s;
@@ -42,4 +49,72 @@
    border-radius: 50%;
    color: white;
    background-color: black;
+}
+
+.sitebar {
+   display: none;
+}
+
+
+@media (max-width: 1250px) {
+   .header-navigation {
+      width: 95%;
+   }
+}
+
+@media (max-width: 880px) {
+   .header-navigation-list {
+      display: none;
+   }
+
+   .header-bag {
+      width: 20%;
+   }
+   
+   .sitebar {
+      display: block;
+      position: relative;
+   }
+
+   .header-navigation-list-sitebar {
+      display: none;
+      border: 1px solid black;
+      border-bottom-left-radius: 20%;
+      border-top-left-radius: 20%;
+      width: 150px;
+      height: 110px;
+      position: absolute;
+      color: white;
+      background-color: gray;
+      top: 20px;
+      right: 2px;
+      text-align: center;
+   }
+
+   .sitebar:hover .header-navigation-list-sitebar {
+      display: block;
+   }
+
+   .navigation-word:active {
+      color: rgb(133, 84, 20);
+   }
+
+   .navigation-word {
+      color: white;
+      font-size: 10px;
+   }
+}
+
+@media (max-width: 450px) {
+   .header-navigation-list-sitebar {
+      width: 100px;
+   }
+
+   .header-bag-word {
+      display: none;
+   }
+
+   .header-bag {
+      width: 15%;
+   } 
 }
