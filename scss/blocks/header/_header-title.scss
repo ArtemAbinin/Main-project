@@ -66,8 +66,12 @@
 
 @media (max-width: 450px) {
     .header-main-block {
-        width: 100%;
+        width: 90%;
         background-image: none;
+        background-color: burlywood;
+    }
+
+    .header-main-background {
         background-color: burlywood;
     }
 }

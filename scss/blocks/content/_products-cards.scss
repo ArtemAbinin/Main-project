@@ -42,3 +42,15 @@
     opacity: 0.5;
     transition: 0.5s;
 }
+
+@media (max-width: 1380px) {
+    .main-products-block {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .product-card-img {
+       object-fit: cover;
+    }
+}
