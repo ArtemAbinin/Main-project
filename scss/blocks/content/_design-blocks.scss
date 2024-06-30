@@ -16,7 +16,7 @@
 
 .design-card {
     width: 300px;
-    text-align: left
+    text-align: left;
 }
 
 .design-title {
@@ -31,4 +31,22 @@
 
 .design-data {
     @include middle-text;
+}
+
+@media (max-width: 1440px) {
+    .design-three-blocks {
+        min-width: 80%;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 768px) {
+    .design-three-blocks {
+        display: flex;
+        justify-content: center;
+    }
+
+    .design-card {
+        margin-top: 30px;
+    }
 }

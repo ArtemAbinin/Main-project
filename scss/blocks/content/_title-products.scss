@@ -123,7 +123,7 @@
 
 @media (max-width: 1460px) {
     .title-products-block {
-        width: 60%;
+        width: 65%;
     }
 
     .first-two-cards-block {
@@ -138,6 +138,10 @@
 }
 
 @media (max-width: 700px) {
+
+    .title-products-block {
+        width: 90%;
+    }
     
     .first-two-cards {
         margin-top: 0;
@@ -156,3 +160,4 @@
         margin-top: 50px;
     }
 }
+

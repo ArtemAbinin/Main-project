@@ -70,3 +70,42 @@
     text-transform: uppercase;
     background-color: white;
 }
+
+@media (max-width: 1024px) {
+    .input-section {
+        margin-top: 50px;
+    }
+
+    .input-section-black-block {
+        width: 100%;
+    }
+}
+
+@media (max-width: 620px) {
+    .input {
+        min-width: 200px;
+    }
+
+    .input-form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input-button {
+        margin: 0 auto;
+        margin-top: 15px;
+        width: 100px;
+        display: inline;
+    }
+
+}
+
+@media (max-width: 420px) {
+    .title-products-word-input::before {
+        display: none;
+    }
+
+    .title-products-word-input::after {
+        display: none;
+    }
+}
