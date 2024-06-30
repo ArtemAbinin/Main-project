@@ -49,3 +49,13 @@
         justify-content: center;
     }
 }
+
+@media (max-width: 425px) {
+    .title-products-word-two::before {
+        display: none;
+    }
+
+    .title-products-word-two::after {
+        display: none;
+    }
+}

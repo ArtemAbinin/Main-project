@@ -501,6 +501,14 @@ table {
     justify-content: center;
   }
 }
+@media (max-width: 425px) {
+  .title-products-word-two::before {
+    display: none;
+  }
+  .title-products-word-two::after {
+    display: none;
+  }
+}
 .end-products {
   margin-top: 150px;
   text-align: center;
@@ -692,11 +700,17 @@ table {
 }
 @media (max-width: 768px) {
   .design-three-blocks {
+    min-width: 90%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
   }
   .design-card {
     margin-top: 30px;
+  }
+}
+@media (max-width: 750px) {
+  .design-card {
+    margin: 0 auto;
   }
 }
 .input-section {
