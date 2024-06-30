@@ -147,7 +147,7 @@ table {
     border-bottom-left-radius: 20%;
     border-top-left-radius: 20%;
     width: 150px;
-    height: 110px;
+    height: 120px;
     position: absolute;
     color: white;
     background-color: gray;
@@ -223,7 +223,6 @@ table {
   font-size: calc(47px + 33 * (100vw - 300px) / 2260);
   font-weight: 400;
   font-family: "Karla";
-  margin: 0;
 }
 
 .header-main-describe {
@@ -231,7 +230,6 @@ table {
   font-size: calc(17px + 8 * (100vw - 300px) / 2260);
   font-weight: 400;
   font-family: "Karla";
-  margin: 0;
 }
 
 .header-main-button {
@@ -343,7 +341,7 @@ table {
 }
 
 .first-two-card-img {
-  background-image: url("../img/products-card/IMAGE (7).png");
+  background-image: url("../img/products-card/IMAGE(7).png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
